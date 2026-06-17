@@ -1,10 +1,10 @@
 # TryHackMe: Retro - CTF Write-up
 **Author:** Mehdi Haidi
 
-## 🎯 Objective
+##  Objective
 The goal of this Capture The Flag (CTF) challenge is to compromise a Windows machine, gain initial access by enumerating a web application, and escalate privileges to `NT AUTHORITY\SYSTEM` by exploiting a known Windows vulnerability (CVE-2019-1388).
 
-## 🛠️ Tools Used
+##  Tools Used
 * **Nmap:** Network and port scanning
 * **Gobuster:** Directory and file enumeration
 * **xfreerdp:** Remote Desktop Protocol client
@@ -79,6 +79,6 @@ This chain resulted in a command prompt running as SYSTEM, granting me full admi
 
 ---
 
-## 💡 Lessons Learned
+##  Lessons Learned
 * **Information Disclosure:** Leaving potential passwords or hints on public-facing web applications or blogs provides an easy foothold for attackers.
 * **Patch Management:** Outdated operating systems are vulnerable to well-documented exploits like CVE-2019-1388. Keeping systems patched is a critical defense against privilege escalation.
